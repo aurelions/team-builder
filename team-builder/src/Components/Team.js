@@ -1,4 +1,20 @@
 import React from 'react'
+import styled from 'styled-components'
+
+
+const MemberContainer = styled.div`
+
+  
+  background-color: black;
+  width: 30vw;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px 1px #ccc;
+  border-radius: 10px;
+
+`
+
+
 
 export default function Team(props) {
   const { details } = props
@@ -8,10 +24,12 @@ export default function Team(props) {
   }
 
   return (
-    <div className='friend container'>
-      <h2>{details.name}</h2>
+    <MemberContainer>
+
+      <h2>Name: {details.name}</h2>
       <p>Email: {details.email}</p>
       <p>Role: {details.role}</p>
-    </div>
+
+    </MemberContainer>
   )
 }

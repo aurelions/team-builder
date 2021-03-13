@@ -1,4 +1,10 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Container = styled.div`
+display: flex;
+flex-direction: column;
+`
 
 export default function TeamForm(props){
 
@@ -18,6 +24,8 @@ export default function TeamForm(props){
     }
 
     return (
+
+    <Container>
         
         <form className='form container' onSubmit={ onSubmit }>
 
@@ -79,6 +87,8 @@ export default function TeamForm(props){
             </div>
 
         </form>
+
+        </Container>
 
     )
 
