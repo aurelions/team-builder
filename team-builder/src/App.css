@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body{
+  background-color: #241133;
+}
+
+                      /* .App-header {
+                        background-color: #282c34;
+                        min-height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: calc(10px + 2vmin);
+                        color: white;
+                      } */
+
+                      /* .App-link {
+                        color: #61dafb;
+                      } */
+
+                      /* @keyframes App-logo-spin {
+                        from {
+                          transform: rotate(0deg);
+                        }
+                        to {
+                          transform: rotate(360deg);
+                        }
+                      } */
+
+h1{
+  font-size: 36px;
+  text-decoration: underline;
+}
+
+h2{
+  font-size: 20px;
+
+}
+
+input{
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  margin-top: 5vh;
+  margin-left: 2vw;
+  margin-right: 1vw;
+}
+
+select, option{
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  margin-left: 2vw;
+  margin-right: 1vw;
+}
+
+button{
+  background: crimson;
+  color: white;
+  text-shadow: 3px 3px black;
+  font-weight: bolder;
+  margin-top: 20px;
+  width: 7vw;
+  height: 5vh;
+  box-shadow: 3px 3px black;
+}
+
